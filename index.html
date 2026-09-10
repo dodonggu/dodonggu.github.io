@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>강동휘 포트폴리오</title>
+
+<style>
+  /* ===== 여기부터는 디자인(색상/간격) 설정. 안 건드려도 됨 ===== */
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    background: #ffffff;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+  header {
+    background: #111111;
+    color: #ffffff;
+    padding: 20px 40px;
+  }
+  header .name {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 60px 24px;
+  }
+  .prefix {
+    color: #888888;
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 8px 0 24px 0;
+  }
+  .intro {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 60px;
+  }
+  section {
+    margin-bottom: 56px;
+  }
+  section h2 {
+    font-family: monospace;
+    font-size: 18px;
+    color: #111111;
+    border-bottom: 2px solid #111111;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+  .project {
+    padding: 20px 0;
+    border-bottom: 1px solid #eeeeee;
+  }
+  .project:last-child {
+    border-bottom: none;
+  }
+  .project .title {
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 6px;
+  }
+  .project .stack {
+    font-family: monospace;
+    font-size: 13px;
+    color: #888888;
+    margin-bottom: 8px;
+  }
+  .project .desc {
+    font-size: 15px;
+    color: #333333;
+  }
+  .contact a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #111111;
+    text-decoration: none;
+    border-bottom: 1px solid #111111;
+  }
+  footer {
+    text-align: center;
+    font-size: 13px;
+    color: #999999;
+    padding: 40px 0;
+  }
+  /* ===== 디자인 설정 끝 ===== */
+</style>
+</head>
+<body>
+
+<header>
+  <div class="name">강동휘</div>
+</header>
+
+<div class="container">
+
+  <!-- ====================================================== -->
+  <!-- 여기부터 실제로 고칠 텍스트입니다. 아래 내용만 바꾸면 됩니다 -->
+  <!-- ====================================================== -->
+
+  <div class="prefix">/introduce</div>
+  <h1>실시간 시스템의 흐름을 설계하는 개발자, 강동휘입니다</h1>
+  <p class="intro">
+    AI 백엔드와 인프라를 중심으로 작업합니다.
+    AURA(AI 비전 기반 무인 재고관리 솔루션)에서는 게이트웨이와 인프라를,
+    DailyLog(음성 일기 기반 AI 추천 서비스)에서는 RAG 파이프라인을 팀장으로서 설계했습니다.
+  </p>
+
+  <section>
+    <div class="prefix">/projects</div>
+    <h2>{ 프로젝트 }</h2>
+
+    <div class="project">
+      <div class="title">AURA — AI 비전 기반 무인 재고관리 솔루션</div>
+      <div class="stack">FastAPI · YOLO/VLM · MQTT · MySQL · MongoDB · Redis · Jenkins</div>
+      <div class="desc">
+        여기에 프로젝트 설명을 적으세요. (예: 게이트웨이, 인프라 설계 담당 / 삼성전자 우수상 수상 등)
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="title">DailyLog — 음성 일기 기반 AI 추천 서비스</div>
+      <div class="stack">Spring Boot · FastAPI · pgvector · Kafka · Thompson Sampling</div>
+      <div class="desc">
+        여기에 프로젝트 설명을 적으세요. (예: 팀장, RAG/추천 시스템 설계 담당 등)
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="title">프로젝트 이름을 여기에 적으세요</div>
+      <div class="stack">사용한 기술 스택을 적으세요</div>
+      <div class="desc">
+        프로젝트 설명을 적으세요.
+      </div>
+    </div>
+
+  </section>
+
+  <section>
+    <div class="prefix">/contact</div>
+    <h2>{ 연락처 }</h2>
+    <div class="contact">
+      <a href="mailto:이메일주소@gmail.com">Email</a>
+      <a href="https://github.com/dodonggu" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <!-- ====================================================== -->
+  <!-- 여기까지가 고칠 부분입니다 -->
+  <!-- ====================================================== -->
+
+</div>
+
+<footer>© 2026 Kang Donghwi</footer>
+
+</body>
+</html>
